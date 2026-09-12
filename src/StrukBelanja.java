@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class StrukBelanja {
     public static void main(String[] args) {
+        // Scanner digunakan untuk membaca input dari keyboard
         Scanner sc = new Scanner(System.in);
 
         // Input barang 1
@@ -32,7 +33,9 @@ public class StrukBelanja {
         System.out.print("Uang dibayar   : ");
         int uangDibayar = Integer.parseInt(sc.nextLine());
 
-        // Perhitungan (disimpan ke variabel dulu, sesuai ketentuan)
+        // ===== PERHITUNGAN =====
+// Semua hasil hitung disimpan ke variabel dulu sebelum ditampilkan
+// Tidak ada angka yang ditulis manual, semua dari hasil hitung
         int subtotal1 = harga1 * jumlah1;
         int subtotal2 = harga2 * jumlah2;
         int subtotal3 = harga3 * jumlah3;
